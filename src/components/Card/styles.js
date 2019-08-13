@@ -5,16 +5,9 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
-  padding: 15px;
-  box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
-  border-top: 20px solid #dcdde1;
+  padding: 0 15px 15px 15px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   cursor: grab;
-
-  header {
-    position: absolute;
-    top: -22px;
-    left: 15px;
-  }
 
   p {
     font-weight: 500;
@@ -37,7 +30,6 @@ export const Container = styled.div`
       background: transparent;
       box-shadow: none;
       cursor: grabbing;
-
       p,
       img,
       header {
@@ -48,8 +40,7 @@ export const Container = styled.div`
 
 export const Label = styled.span`
   width: 10px;
-  height: 10px;
+  height: 25px;
   border-radius: 2px;
-  display: inline-block;
   background: ${props => props.color};
 `;
